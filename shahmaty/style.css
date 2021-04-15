@@ -2,5 +2,63 @@ body
 {
   margin: 0;
   background: rgb(248, 194, 145);
-  d
+  font-family: "Arial Black";
+}
+
+#top
+{
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background: rgb(220, 170, 130);
+  overflow: hidden;
+}
+
+.menu
+{
+  position: relative;
+  float: right;
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  background: rgb(200, 150, 110);
+  border: none;
+  box-shadow: 0 0 4px rgba(0,0,0,0.5);
+  outline: none;
+  transition: .4s;
+}
+
+.menu:focus
+{
+  transform: scale(0.85);
+}
+
+.popup
+{
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  min-width: 200px;
+  background: rgb(230, 230, 230);
+  border-radius: 20px;
+}
+
+.popup-link
+{
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 42px;
+  padding: 10px 0;
+  text-decoration: dotted;
+  color: rgb(140, 110, 80);
+  border-bottom: 2px solid rgb(140, 110, 80);
+  transition: .4s;
+}
+
+.popup-link:focus
+{
+  opacity: 0.6;
 }

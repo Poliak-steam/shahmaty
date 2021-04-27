@@ -156,22 +156,16 @@ h6 {
 .game-type-carousel-element
 {
   position: relative;
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
-=======
->>>>>>> 392b58039131f47bd3bb4e31396302a3e8ec1acd
   height: 600px;
   width: 600px;
   background: #3e3b32ff;
   display: flex;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
   font-size: 60px;
-=======
   font-size: 100px;
->>>>>>> 392b58039131f47bd3bb4e31396302a3e8ec1acd
   color: #ffffff;
 }
 
